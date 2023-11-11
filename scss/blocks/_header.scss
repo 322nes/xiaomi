@@ -1,3 +1,69 @@
 .header {
-}
 
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+    &-logo {}
+
+    &-nav {
+      display: flex;
+      margin-left: -20%;
+
+      &-item {
+        margin-right: 35px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+
+    &-btn {
+      position: relative;
+      right: 0;
+
+      p {
+        color: #151515;
+      }
+    }
+  }
+
+  &__title {
+    width: 1016px;
+    font-size: 4.17vw;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 220px;
+  }
+
+  &__subtitle {
+    width: 475px;
+    font-size: 1.56vw;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 35px;
+    color: #FF4C0D;
+  }
+
+  &__btn-blackAwhite {
+    display: flex;
+    margin-top: 60px;
+    width: 250px;
+    height: 55px;
+    border: #f1f1f1 3px solid;
+    border-radius: 108px;
+
+    &-item {
+      margin: -3px 0px 0px -3px;
+
+
+
+      &:nth-child(2) {
+        background-color: transparent;
+        color: #f1f1f1;
+      }
+
+    }
+  }
+}
