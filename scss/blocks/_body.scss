@@ -1,17 +1,19 @@
 body {
   font-family: Gilroy, sans-serif;
   background-color: #222222;
+  // background-color: #c57777;
   color: #f1f1f1;
 }
 
 .wrapper {
   min-height: 100%;
-  width: 100%;
+  // width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1360px;
   padding: 0;
   margin: 0 auto;
 }
