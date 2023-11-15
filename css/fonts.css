@@ -47,3 +47,10 @@
   font-weight: 900;
   font-style: normal;
 }
+@font-face {
+  font-family: "mr_kindly";
+  src: url("./../fonts/mr_kindlyjasmineg.otf");
+  src: local("mr_kindly"), url("./../fonts/mr_kindlyjasmineg.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
